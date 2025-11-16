@@ -60,7 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|147310000|108930000|F.Cu|4|2f953538-ea2e-4aa8-ac24-f421f42d9a34|93ebd97e-a235-4cf2-899b-7377fea7e91f",
+          "unconnected_items|147310000|108930000|F.Cu|4|662bc1c7-1954-48ea-9155-7c86d47a2616|93ebd97e-a235-4cf2-899b-7377fea7e91f",
           "All connections are on the main board, we don't need to tie both of these together"
         ],
         [

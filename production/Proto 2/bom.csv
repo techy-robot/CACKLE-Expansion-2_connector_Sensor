@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1,PinHeader_1x05_P1.27mm_Vertical,1,SPI,
+"J15, J4",TE_mezzanine_conn_3-2363962-0,2,TE 3-2363962-0 Connector,C425104
+"J2, J5",fpc_7pin_0.3mm_connector Panasonic,2,FPC 0.3mm Aces 51688-0070M,
+J3,PinHeader_1x03_P1.27mm_Vertical,1,Prog Pins,
+J6,PinHeader_1x02_P1.27mm_Vertical,1,Free Pins,
+J7,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,1,JST SH,C160404
+"JP1, JP2",SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,2,Jumper,
+"R2, R4",0402,2,10k,C25744

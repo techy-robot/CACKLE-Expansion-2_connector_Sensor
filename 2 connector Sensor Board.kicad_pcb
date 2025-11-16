@@ -913,18 +913,18 @@
 			(net 1 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "a712bcb8-14e7-40f6-88b4-411fc9a88c61")
+			(uuid "10a1654d-a7a4-47fa-b0af-58a91a74d74e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.step"
+		(model "${KICAD_USER_CUSTOM}/jst-sh-smd-connectors-1.snapshot.4/SMxxB-SRSS-TB/SM04B-SRSS-TB.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 1.5 -0.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -2709,7 +2709,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "2fe68c58-dacb-474f-9e65-e07f1a894a38")
+			(uuid "9120cfb1-52b7-4fb1-b756-9ffe496f978c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.03 -4.2 0)
@@ -3042,7 +3042,7 @@
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "f6b2d719-32d4-431a-aced-286438962f79")
+			(uuid "54b5a370-2f89-4d98-b059-92b9595b4e7b")
 		)
 		(pad "MP" smd rect
 			(at 3.59 -0.57 180)
@@ -3052,7 +3052,7 @@
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ee4e2c1d-757c-472e-9bfd-1949a20b8162")
+			(uuid "54b5a370-2f89-4d98-b059-92b9595b4e7b")
 		)
 		(pad "MP" smd rect
 			(at 3.59 0.56 180)
@@ -3062,16 +3062,17 @@
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "580e0121-ec36-4704-90a5-6e680ba2e65e")
+			(uuid "54b5a370-2f89-4d98-b059-92b9595b4e7b")
 		)
 		(group ""
-			(uuid "e0a28dc9-0305-4f21-8f2a-5d72fcac6149")
+			(uuid "965179e1-2aca-4c42-b838-718f1cb9882d")
 			(members "021092cf-bf6c-4908-9d22-7115f2d077ee" "0957be8a-0d2c-40be-9188-5a35557436e8"
 				"1738db26-f289-402e-acf0-54120007f514" "1ce6e4bd-0fd4-4202-8936-720ff3823d97"
 				"1e3ef87e-a57e-4202-a96b-2522170165df" "242f477e-6e95-42ff-87f9-9a0cea07f15a"
 				"2ea65a7a-056b-4f9d-856a-6b6f28094f47" "3f292e90-9efa-4fbe-a2c1-58fd63c7b396"
 				"4624d608-fbe9-4cc0-af6e-358785c6801a" "48c3ff4b-c151-4fc6-ba2d-bc10af352e11"
-				"54b5a370-2f89-4d98-b059-92b9595b4e7b" "580e0121-ec36-4704-90a5-6e680ba2e65e"
+				"54b5a370-2f89-4d98-b059-92b9595b4e7b" "54b5a370-2f89-4d98-b059-92b9595b4e7b"
+				"54b5a370-2f89-4d98-b059-92b9595b4e7b" "54b5a370-2f89-4d98-b059-92b9595b4e7b"
 				"5d13f195-3428-4777-9a51-0777eea56ada" "5de5797f-3f15-4e24-9597-b03360a4d17a"
 				"5e8a5459-7da0-4919-83a2-459c4a6b5b75" "689feef2-ec1a-42e5-bffd-3cdb129694ad"
 				"6f8e13e9-af32-4dc3-add9-bf8a79541667" "743440eb-605c-4ed2-b0e6-65ef78f0d0f4"
@@ -3082,12 +3083,11 @@
 				"bd1a0c46-2119-49cc-87f1-5348ce131027" "be569144-a59d-4400-bcda-87874e80df55"
 				"c49c8b1c-a8bf-4efb-b5fb-09129a351103" "c8e281e1-e35d-43ff-94b4-1f64e5430fdd"
 				"df493131-56ce-4a05-ba30-f34cfe81bbbf" "ed64a4e8-d256-4c0e-ae6d-b3d7575a380a"
-				"ee4e2c1d-757c-472e-9bfd-1949a20b8162" "eea48bb2-4f82-49b8-a4f4-53ade1c3adf8"
-				"f410cefa-df8a-4270-8241-a27363eca5b4" "f6b2d719-32d4-431a-aced-286438962f79"
+				"eea48bb2-4f82-49b8-a4f4-53ade1c3adf8" "f410cefa-df8a-4270-8241-a27363eca5b4"
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/TE c-3-2363962-0-a-3d.stp"
+		(model "${KICAD_USER_CUSTOM}/TE c-3-2363962-0-a-3d.stp"
 			(offset
 				(xyz 0 0 0.6)
 			)
@@ -3095,7 +3095,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3187,7 +3187,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "8c396267-866d-47be-957b-645119fda800")
+			(uuid "389314dd-f26f-47d0-93ae-3633ad286803")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.03 -4.2 0)
@@ -3520,7 +3520,7 @@
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a91d171f-fb1f-40b6-bfde-6f5257a21033")
+			(uuid "5b29c1c5-0b49-4860-a7aa-d2f3b4818ff3")
 		)
 		(pad "MP" smd rect
 			(at 3.59 -0.57 180)
@@ -3530,7 +3530,7 @@
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "1ec64173-0ad1-4251-a015-930ef88f39ca")
+			(uuid "5b29c1c5-0b49-4860-a7aa-d2f3b4818ff3")
 		)
 		(pad "MP" smd rect
 			(at 3.59 0.56 180)
@@ -3540,32 +3540,32 @@
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ded8fdb5-098e-4204-a15b-79dd281b40af")
+			(uuid "5b29c1c5-0b49-4860-a7aa-d2f3b4818ff3")
 		)
 		(group ""
-			(uuid "c3431aed-5a96-4cd1-abd1-c0269b481ed7")
-			(members "09b386e4-98c9-4328-9aca-8bf6554dd7cd" "1ec64173-0ad1-4251-a015-930ef88f39ca"
-				"2b55a2f2-472f-40c3-b54a-c2d4d49fdf09" "2f953538-ea2e-4aa8-ac24-f421f42d9a34"
-				"32f39254-a9fb-47cb-8b9b-e308bb741ad9" "355ab22b-e422-4a43-bfba-46f5dc890efa"
-				"35e4cfc5-568c-4c41-9473-a940146d2a2a" "3bace49f-7b7c-47ac-8372-57b9bf874661"
-				"3d9ce2e5-0bf6-4b84-bcd9-0f94bc8c9f6c" "4acc6846-951c-4ea3-8885-2654d48730bf"
-				"546e91aa-2323-4bce-a1d1-4607220c94b5" "59ecf840-802a-4b63-a1a9-e3e59d369f91"
+			(uuid "92a770df-7700-45e9-a561-8603a1210d89")
+			(members "09b386e4-98c9-4328-9aca-8bf6554dd7cd" "2b55a2f2-472f-40c3-b54a-c2d4d49fdf09"
+				"2f953538-ea2e-4aa8-ac24-f421f42d9a34" "32f39254-a9fb-47cb-8b9b-e308bb741ad9"
+				"355ab22b-e422-4a43-bfba-46f5dc890efa" "35e4cfc5-568c-4c41-9473-a940146d2a2a"
+				"3bace49f-7b7c-47ac-8372-57b9bf874661" "3d9ce2e5-0bf6-4b84-bcd9-0f94bc8c9f6c"
+				"4acc6846-951c-4ea3-8885-2654d48730bf" "546e91aa-2323-4bce-a1d1-4607220c94b5"
+				"59ecf840-802a-4b63-a1a9-e3e59d369f91" "5b29c1c5-0b49-4860-a7aa-d2f3b4818ff3"
+				"5b29c1c5-0b49-4860-a7aa-d2f3b4818ff3" "5b29c1c5-0b49-4860-a7aa-d2f3b4818ff3"
 				"5b29c1c5-0b49-4860-a7aa-d2f3b4818ff3" "665a35e2-d6a4-4f5d-a4d5-967dd7beea8e"
 				"6e0601d2-f7e6-4083-b56d-b551992d8bd8" "73860000-dca9-429f-8bce-53303670fad5"
 				"765d9ea6-db17-4f40-9027-e2f3cb81d02f" "7b1a3a49-1792-4e9e-a9e4-c62ff4425878"
 				"8561d083-6a86-45d4-a975-5d454b12a848" "8bf8f070-2304-48c7-827f-9f9300021a61"
 				"8ec0ed7b-583c-4d5e-b6cc-f78068904bcd" "91a8c347-8f51-4378-b8c6-41b3c4400139"
-				"96ab93ed-bef1-4202-852f-a3bf85c05824" "a91d171f-fb1f-40b6-bfde-6f5257a21033"
-				"ac955d10-6a55-4ad4-8ea3-cf460d314ca7" "b78ee34f-0f92-4047-b32f-ce2ed25f115e"
-				"bc3ba48e-bc40-479b-8030-d9f42697fba7" "cffcec90-1946-47b7-a13d-6b20a09c1cbb"
-				"d4f71771-f21d-4416-a949-7590795de836" "dca84e47-c4c6-4080-8b55-0f5055ff1489"
-				"ded8fdb5-098e-4204-a15b-79dd281b40af" "ed44c177-0943-4c8e-9914-df197b8f0e01"
+				"96ab93ed-bef1-4202-852f-a3bf85c05824" "ac955d10-6a55-4ad4-8ea3-cf460d314ca7"
+				"b78ee34f-0f92-4047-b32f-ce2ed25f115e" "bc3ba48e-bc40-479b-8030-d9f42697fba7"
+				"cffcec90-1946-47b7-a13d-6b20a09c1cbb" "d4f71771-f21d-4416-a949-7590795de836"
+				"dca84e47-c4c6-4080-8b55-0f5055ff1489" "ed44c177-0943-4c8e-9914-df197b8f0e01"
 				"fab88af2-70ff-4f37-9213-c2bc0065dfa1" "fb63223c-60cf-4615-a0e2-883393cb34a3"
 				"feb443f8-b914-4842-9c58-9c33377e5042" "ff9b76ab-b82e-43ac-a680-9b9de65bb457"
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/TE c-3-2363962-0-a-3d.stp"
+		(model "${KICAD_USER_CUSTOM}/TE c-3-2363962-0-a-3d.stp"
 			(offset
 				(xyz 0 0 0.6)
 			)
@@ -3573,7 +3573,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
